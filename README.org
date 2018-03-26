@@ -1,0 +1,7 @@
+* Makram
+
+A (noble) exploration in real time audio. Currently it is mostly a (common) lisp veneer over FaustLang. See `scratch.lisp` for some fuzzy examples.
+
+* build
+
+  There is a nix file within the root project directory. If you have nixpkgs installed, calling `nix-shell` to ensure a proper dev environment and building the `faustbind.so`.
