@@ -58,7 +58,4 @@
      (decl ((dsp* oldDSP = fDSP))
            (new-dsp->init (jack_get_sample_rate fClient))
            (set fDSP new-dsp)
-           (delete oldDSP))
-
-
-     )))
+           (delete oldDSP)))))

@@ -130,7 +130,6 @@
   (bind ((prop (cond-> prop
                  (symbolp prop)
                  sym->faust-string)))
-
     (some-> aunit-sym
       lookup-faust-dsp
       fau-ui-ptr
