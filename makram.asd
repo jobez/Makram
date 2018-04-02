@@ -24,5 +24,8 @@
   :serial t
   :defsystem-depends-on (:cffi/c2ffi)
   :components ((:file "package")
+               (:file "utils")
+               (:file "rhythm")
                (:file "faustsyntax")
-               (:file "faustbind")))
+               (:file "faustbind")
+               (:file "scheduler")))

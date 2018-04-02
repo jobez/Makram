@@ -14,3 +14,11 @@
           :lparallel.queue
           :serapeum)
     (:import-from :%rtg-math :defn :defn-inline))
+
+(uiop:define-package #:makram.scheduler
+    (:mix :cl :metabang-bind
+          :arrow-macros :iterate
+          :scheduler :serapeum
+          :fiveam)
+  (:import-from :%rtg-math :defn :defn-inline)
+  (:export sched!))
